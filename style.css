@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.division{
+    width: 100vw;
+    height: 100%;
+    background-color: #99ddee;
+}
+head{
+    font-size: large; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.whtht_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 30px;
+    margin: 30px auto;
+    border-top: 3px dashed black;
+
+}
+.card{
+    text-decoration: none;
+    color: aqua;
+    width: 260px;
+    height: 316px;
+    background-color: #34ff;
+    border-radius: 12px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 5px 6px transparent;
+    transition:0.4s all;
+}
+.project_name{
+    background-color: transparent;
+    margin-top: 0px;
+    padding:2px;
+    text-align: center;
+    border-bottom: 2px dashed black;
+    transition:0.4s all;
+}
+.source{
+    background-color: red;
+    border-bottom: 2px dashed black;
+}
+.card:hover{
+    box-shadow: -3px 3px 5px 8px rgba(20, 30,30, 30);
+    background-color:black;
+    transform: translateY(-4px);
+    border:2px solid yellow;
+    box-sizing: content-box;
+    transition:0.4s all;
+}
+.project_name:hover{
+    color:yellow;
+    transition:0.4s all;
+}
+.me_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.heading_for{
+    width: 260px;
+    height:316px;
+    background-color: red;
+    margin-left: 30px;
+    border-radius: 12px;
+    border:2px solid black; 
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.heading_for:hover{
+    box-shadow: -3px 3px 5px 8px rgba(20, 30,30, 30);
+    color: red;
+    background-color:black;
+    transform: translateY(-4px);
+    border:2px solid red;
+    box-sizing: content-box;
+    transition:0.4s all;
+}
+
+/*About pages styling*/
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CARD{
+    width: 400px;
+    height: 300px;
+    background-color: cyan;
+    border-radius: 20px;
+}
+.CARD>p{
+    font-family: 'Verdana';
+    font-size: 16px; 
+}
